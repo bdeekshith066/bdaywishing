@@ -54,12 +54,7 @@ class MultiApp:
             )
             st.write('')
             
-            your_media_file = "images/sidebar.jpg"  
-            img = Image.open(your_media_file)
-            w, h = img.size
-            new_height = int(w * 16 / 15)
-            img_resized = img.resize((w, new_height))
-            st.sidebar.image(img_resized , caption = "I love you Deekshith!")
+            
 
 
         if app == "Home❤":

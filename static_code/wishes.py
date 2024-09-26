@@ -57,11 +57,11 @@ st.markdown(
 )
 
 form_data = [
-    ("images/dima.jpg", "Mamatha - Your mom"),
-    ("images/dipa.jpg", "Bhaskar - Your pa"),
-    ("images/pic1.jpg", "Sanjana - Your friend"),
-    ("images/difriend.jpg", "Darshan - Your friend"),
-    ("images/disanj.jpg", "Thrisha - Your friend")
+    ("static_code/images/dima.jpg", "Mamatha - Your mom"),
+    ("static_code/images/dipa.jpg", "Bhaskar - Your pa"),
+    ("static_code/images/pic1.jpg", "Sanjana - Your friend"),
+    ("static_code/images/difriend.jpg", "Darshan - Your friend"),
+    ("static_code/images/disanj.jpg", "Thrisha - Your friend")
 ]
 
 

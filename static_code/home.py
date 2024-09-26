@@ -131,7 +131,7 @@ def app():
     image_placeholder = st.empty()
 
     with image_placeholder.container():
-        your_media_file = "images/di1intro.jpg"
+        your_media_file = "static_code/images/di1intro.jpg"
         img = Image.open(your_media_file)
         w, h = img.size
         new_height = int(w * 16 / 15)

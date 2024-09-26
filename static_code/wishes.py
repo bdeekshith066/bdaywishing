@@ -7,9 +7,9 @@ def load_lottie_animation(file_path):
     with open(file_path, "r") as f:
         return json.load(f)
 
-LOTTIE_ANIMATION = "assets/boxmsg.json"
+LOTTIE_ANIMATION = "static_code/assets/boxmsg.json"
 
-BOX_OPEN_ANIMATION = "assets/letteropen.json"
+BOX_OPEN_ANIMATION = "static_code/assets/letteropen.json"
 
 def show_animation_and_message(message):
     animation_placeholder = st.empty() 

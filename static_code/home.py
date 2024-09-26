@@ -144,7 +144,7 @@ def app():
     # Directories & File paths
     this_dir: Path = Path(__file__).parent
     LOTTIE_ANIMATION = 'static_code/assets/love_birds.json'
-    BOX_OPEN_ANIMATION = 'static_code/assets/box_open.json"
+    BOX_OPEN_ANIMATION = 'static_code/assets/box_open.json'
 
     # Load Lottie animations
     def load_lottie_animation(file_path):

@@ -190,7 +190,7 @@ def app():
             time.sleep(0)
         button_placeholder.empty()
 
-        st.audio('audio.mp3', autoplay=True )
+        st.audio('static_code/audio.mp3', autoplay=True )
 
         def typewriter(text: str, speed: int):
             tokens = text.split()
@@ -218,7 +218,7 @@ def app():
         st.write('')
         st.write('')
         st.write("Watch this short video!! 🎥 <b> A glimpse into :red[our incredible journey together🫂🥹❤].", unsafe_allow_html= True )
-        video_file = open('videoo.mp4', 'rb')
+        video_file = open('static_code/videoo.mp4', 'rb')
         video_bytes = video_file.read()
         st.video(video_bytes)
         st.write('')

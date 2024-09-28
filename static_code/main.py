@@ -31,13 +31,7 @@ class MultiApp:
 
     def run(self):  
         with st.sidebar:     
-            st.markdown("""
-          `<style>
-            .gradient-text {
-              margin-top: -20px;
-            }
-          </style>
-        """, unsafe_allow_html=True)
+            
             
             
             typing_animation = """

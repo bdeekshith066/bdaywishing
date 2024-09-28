@@ -1,0 +1,89 @@
+Deekshith B - The Birthday Boi
+Pranav - The person who is wishing Deekshith 
+Gireesh - The developer
+
+
+Pranav who wishes to wish Deekshith on his bday opens eg - bdaywishing.com  webiste created by Gireesh (a react application which takes all the details 
+entered by pranav about deekshith , and gives pranav a streamlit deployed website as an output - eg - dixitbbday.streamlit.app).
+
+
+Now reg the 3 themes which we are offering
+1) for couples
+2) for  friends
+3) for wishing family members
+
+The major difference  among the 3 is 
+1)the lottie animations(eg for theme 1 we have love birds animation , for theme 2 {yet to do but something like a cake cutting animation}) ,
+2)change in falling emoji , 
+3)change in font colour . (arya has suggested some changes working on it)
+So we have to design in such a way that
+which ever theme he/she  chooses based on that the json file from the assests folder has to be assigned... through  function calls...
+
+
+now pranav opened the website. He selects theme 2 , upon selecting theme 2 it lands to the next page where in he has to enter all the details about Deekshith , 
+asked in the form and upon clicking final submit button the repo in  name of deekshith gets created
+we have to come up with an algo for repo name creation....to make sure that the repo names dont get clashed
+
+just to keep the user engaging we can ask him to click one more button for deploymenet and meanwhile show him some aniamtions of the process is almost getting done...
+
+
+
+every repo will contain
+
+assests folder 
+images folder 
+main.py
+home.py
+chatbot.py
+wishes.py
+
+
+
+
+In the basic_form folder which i have uploaded , it contains a html form which takes in user  input of name and nickname and upon clicking submit button 
+ a repo gets created in name entered by pranav and the repo contains assests folder and main.py , home.py ,wishes.py , chatbot.py{all these have the static code }
+
+
+
+
+
+Wishes.py
+For this page the required inputs from the user(pranav) is 
+The number of people who are wishing deekshith  (pranav would have contacted deekshith's friends and would have asked for a bday wish msg 
+ of them wishing deekshith, and a pic of theirs with Deekshith)
+
+so in the form need to ask for number of people , and then that many number of inputs
+friend 1 name - 
+frined 1 wish - 
+friend 1 image with deekshith - 
+
+frined 2 name - 
+friend 2 wish - 
+friend 2 image with deekshith - 
+
+for all the themes same animations for this page 
+assests/box_open.json  
+assests/letter_open.json
+
+
+
+
+Chatbot.py
+For this page the developer(gireesh) would provide the user(pranav) with already  4 set of questions on - 
+1)a question which revolves around when did they meet 
+2) their most memorable moment
+3) their saddest point any sorrows...
+4) their future
+
+now if pranav wishes to edit any of the question he can do so by clicking on the edit button in the right below each question in the form
+
+Here the required inputs from the user are
+. The questions -  user can change or  go with the set of question given by the developer
+. next right below each question their should be input for the answer  and below it keyword for the answer
+(need to tell pranav when deekshith enters (eg for question 1) date he will get the answer as the response)
+also need to ask for hint(that also user can edit or go witht he one given by developer)
+
+
+the key only differnce among the 3 themes is that questions slightly change ,font colout of  heading and sub para colourchanges
+ rest all (chatbot input box , chatbot response .... )
+ 

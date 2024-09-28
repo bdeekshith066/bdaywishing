@@ -7,7 +7,18 @@ from streamlit_extras.app_logo import add_logo
 from PIL import Image
 
 
+st.markdown("""
+<style>
 
+.block-container
+{
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    margin-top: 1rem;
+}
+
+</style>
+""", unsafe_allow_html=True)
 class MultiApp:
     def __init__(self):
         self.app = []

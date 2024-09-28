@@ -51,6 +51,10 @@ class MultiApp:
                 menu_title='Sections',
                 options=['Home❤','Nostalgia Narrator✍️', 'WishBox📦'],
                 default_index=0,
+                icons=['house', 'book', 'box'],
+                menu_icon="cast",
+                orientation="vertical",
+
             )
             st.write('')
             
